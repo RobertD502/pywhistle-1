@@ -100,8 +100,8 @@ class Client:
        device: array of
           model_id, serial_number, battery_stats, etc
     """
-    async def get_device(self, serial_number):
-        return await self.get_resource(self._config, self._token, 'devices/%s' % serial_number)
+    async def get_device(self):
+        return await self.get_resource(self._config, self._token, 'devices')
 
     """
     Returns:
