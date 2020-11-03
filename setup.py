@@ -12,7 +12,7 @@ setup(
     description = 'Unofficial Whistle 3 Device API',
     author = 'Chris F Ravenscroft',
     author_email = 'chris@voilaweb.com',
-    url = 'https://github.com/Fusion/pywhistle',
+    url = 'https://github.com/RobertD502/pywhistle-1',
     license = 'MIT',
     long_description = get_readme_content(),
     packages = ['pywhistle',],
